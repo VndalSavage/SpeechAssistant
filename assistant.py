@@ -29,7 +29,7 @@ def wishMe():
     else:
         speak("Good Evening!")  
 
-    speak("My name is Felicia. How may I help you?")       
+    speak("what the fuck do you want ya snotty twat")       
 
 def takeCommand():
     #It takes microphone input from the user and returns string output
@@ -90,7 +90,7 @@ if __name__ == "__main__":
         elif 'play music' in query:
             webbrowser.get(chromedir).open("https://open.spotify.com/collection/playlists")
             
-            #music_dir = 'D:\\Non Critical\\songs\\Favorite Songs2'
+            #music_dir = 'D:\\____'
             #songs = os.listdir(music_dir)
             #print(songs)    
             #os.startfile(os.path.join(music_dir, songs[0]))
@@ -100,14 +100,14 @@ if __name__ == "__main__":
             speak(f"Sir, the time is {strTime}")
 
         elif 'open code' in query:
-            codePath = "C:\\Users\\Manoj\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = "C:\\Users\\_____"
             os.startfile(codePath)
 
         elif 'email to aryan' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
-                to = "aru.18072002@gmail.com"    
+                to = "_____@gmail.com"    
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
